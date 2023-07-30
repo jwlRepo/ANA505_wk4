@@ -6,7 +6,7 @@ JayChickWeight <- data.frame(ChickWeight)
 
 #See the top rows of the data
 #TASK: Write the code to see the top rows of the data
-JayChickWeight[1:5,]
+JayChickWeight %>% head(5)
 
 #Install and call the package dplyr
 #TASK: Write the code to install and call dplyr
